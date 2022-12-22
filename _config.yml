@@ -11,7 +11,7 @@ contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 =======
 first_name: Julia
-middle_name:
+middle_name: "Test"
 last_name: Guskind
 email: you@example.com
 >>>>>>> c1dbb9ce (name fix)
