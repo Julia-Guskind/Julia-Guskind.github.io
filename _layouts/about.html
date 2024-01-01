@@ -6,7 +6,7 @@ layout: default
       <div class="post">
         <header class="post-header">
           <h1 class="post-title">
-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+           {% if site.title == "blank" -%}<span>{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
           </h1>
           <p class="desc">{{ page.subtitle }}</p>
         </header>
@@ -20,7 +20,7 @@ layout: default
               {% if page.profile.image_circular %}
                 {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
               {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+                {%- assign profile_image_class = "img-fluid" -%}
               {% endif %}
 
               {% include figure.html 
@@ -30,7 +30,7 @@ layout: default
             {% endif -%}
             {%- if page.profile.address %}
             <div class="address">
-              {{ page.profile.address }}
+              Email: {{ page.profile.address }}
             </div>
             {%- endif %}
           </div>
@@ -39,7 +39,8 @@ layout: default
           <div class="clearfix">
             {{ content }}
           </div>
-
+        
+          
           {% if page.news -%}
           <!-- News -->
           {%- include news.html %}
@@ -61,6 +62,12 @@ layout: default
             
           </div>
           {%- endif %}
+
+          {% if page.publications -%}
+          <!-- Publications -->
+          {%- include publications.html %}
+          {%- endif %}
+          
         </article>
 
 </div>
