@@ -16,7 +16,7 @@ social: false  # includes social icons at the bottom of the page
 publications: true
 ---
 
-Hi! I'm a first-year computer science PhD student at Boston University where I'm fortunate to be working with [Mayank Varia](https://www.mvaria.com/) and [Leonid Reyzin](https://www.bu.edu/cs/profiles/leonid-reyzin/). My current research focuses on theoretical and applied cryptography.
+Hi! I'm a second-year computer science PhD student at Boston University where I'm fortunate to be working with [Mayank Varia](https://www.mvaria.com/) and [Leonid Reyzin](https://www.bu.edu/cs/profiles/leonid-reyzin/). My current research focuses on cryptography, especially verifiable computation and zero-knowledge proof systems.
  
 <!-- I am especially interested in solving problems with practical applications to blockchain technology and ... -->
 
