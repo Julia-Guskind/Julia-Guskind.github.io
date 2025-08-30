@@ -22,7 +22,7 @@ My current research interests include verifiable computation and zero-knowledge 
  
 <!-- I am especially interested in solving problems with practical applications to blockchain technology and ... -->
 
-[Google Scholar](https://scholar.google.com/citations?user=mSJvBx0AAAAJ&hl=en&oi=ao)
+[Google Scholar](https://scholar.google.com/citations?user=UAd7mqcAAAAJ&hl=en&oi=ao)
 
 **Email:** guskinju@bu dot edu
 <br>
