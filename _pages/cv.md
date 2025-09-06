@@ -1,8 +1,8 @@
 ---
 layout: cv
-permalink: /cv
-title: CV
-nav: false
-nav_order: 4
-cv_pdf: Julia-Guskind-CV.pdf
+permalink: /bread
+title: Bread
+nav: true
+nav_order: 2
+cv_pdf: julia_guskind_bread_portfolio.pdf
 ---
